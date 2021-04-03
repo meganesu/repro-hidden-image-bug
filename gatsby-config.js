@@ -2,5 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "repro-header-image",
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 };
